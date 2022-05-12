@@ -12,5 +12,12 @@ Window {
         height: 300
         anchors.centerIn: parent
         color: "red"
+        Rectangle
+        {
+            width: 50
+            height: 50
+            anchors.centerIn: parent
+            color: "blue"
+        }
     }
 }
